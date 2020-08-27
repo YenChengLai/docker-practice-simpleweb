@@ -1,5 +1,6 @@
 # Specify a base image
-FROM alpine
+# alpine version means small and compact as possible in docker community
+FROM node:alpine
 
 # Install dependencies
 RUN npm install
